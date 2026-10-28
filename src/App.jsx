@@ -67,10 +67,10 @@ const projects = [
     category: '02 — PERSONAL',
     description: 'A personal space to share my journey, highlight projects, and make it easy to connect with me.',
     tags: ['Responsive UI', 'Animation', 'Design'],
-    image: 'images/profile.jpg',
+    image: 'images/personalportfolio.png',
     link: 'https://zemraasif-55.github.io/zemrra-portfolio/',
     github: 'https://github.com',
-    status: 'Back to top',
+    status: 'completed',
   },
   {
     title: 'Multi-Category Electronics Store',
