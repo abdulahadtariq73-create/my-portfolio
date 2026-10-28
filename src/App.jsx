@@ -127,7 +127,7 @@ function App() {
         <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
           <a href="#home" className="flex items-center gap-3">
             <div className="flex h-10 w-10 items-center justify-center rounded-md border border-[#7dd3fc]/60 bg-[#111111] text-sm font-black text-[#7dd3fc] shadow-[0_0_25px_rgba(125,211,252,0.25)]">
-              AT
+              A-T
             </div>
             <div>
               <p className="text-lg font-semibold tracking-tight text-[#f5f0e6]">Abdul-Ahad</p>
@@ -421,7 +421,7 @@ function App() {
       <footer className="border-t border-[#7dd3fc]/20 bg-[#07131d]">
         <div className="mx-auto flex max-w-7xl flex-col gap-5 px-4 py-6 text-center text-sm text-[#c9ced4] sm:px-6 lg:flex-row lg:items-center lg:justify-between lg:px-8">
           <div className="flex items-center justify-center gap-3 lg:justify-start">
-            <span className="text-2xl font-black text-[#7dd3fc]">AT.</span>
+            <span className="text-2xl font-black text-[#7dd3fc]">A-T.</span>
           </div>
           <div>Designed &amp; built with care by Abdul Ahad</div>
           <div className="flex items-center justify-center gap-3 lg:justify-end">
