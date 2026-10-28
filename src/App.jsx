@@ -68,7 +68,7 @@ const projects = [
     description: 'A personal space to share my journey, highlight projects, and make it easy to connect with me.',
     tags: ['Responsive UI', 'Animation', 'Design'],
     image: '/images/personalportfolio.png',
-    link: 'https://zemraasif-55.github.io/zemrra-portfolio/',
+    link: 'https://personal-portfolio-nine-iota-40.vercel.app/',
     github: 'https://github.com',
     status: 'completed',
   },
