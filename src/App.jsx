@@ -69,7 +69,7 @@ const projects = [
     tags: ['Responsive UI', 'Animation', 'Design'],
     image: '/images/personalportfolio.png',
     link: 'https://personal-portfolio-nine-iota-40.vercel.app/',
-    github: 'https://github.com',
+    github: 'https://github.com/abdulahadtariq73-create/my-portfolio',
     status: 'completed',
   },
   {
