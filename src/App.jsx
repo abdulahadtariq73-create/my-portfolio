@@ -57,7 +57,7 @@ const projects = [
     category: '01 — E-Cmmmerce',
     description: 'A modern, responsive e-commerce website showcasing electronic devices with a clean design and user-friendly shopping experience.',
     tags: ['tailwind CSS', 'React', 'Responsive Design'],
-    image: 'public/images/flexcart.png',
+    image: '/images/flexcart.png',
     link: 'https://flex-project-main.vercel.app/',
     github: 'https://github.com/abdulahadtariq73-create/flex-project-main',
     status: 'Completed',
@@ -67,7 +67,7 @@ const projects = [
     category: '02 — PERSONAL',
     description: 'A personal space to share my journey, highlight projects, and make it easy to connect with me.',
     tags: ['Responsive UI', 'Animation', 'Design'],
-    image: 'public/images/personalportfolio.png',
+    image: '/images/personalportfolio.png',
     link: 'https://zemraasif-55.github.io/zemrra-portfolio/',
     github: 'https://github.com',
     status: 'completed',
@@ -77,7 +77,7 @@ const projects = [
     category: '03 — E-Commerce',
     description: 'A modern and responsive electronics e-commerce website featuring mobile phones, cameras, audio devices, TVs, and gaming products. Designed with a clean interface, organized product categories, and a seamless browsing experience across all devices.',
     tags: ['React.js  · Tailwind CSS · E-Commerce · Electronics · Responsive Design'],
-    image: 'public/images/electronice1.png',
+    image: '/images/electronice1.png',
     link: 'https://my-project-ten-steel.vercel.app/',
     github: 'https://github.com/abdulahadtariq73-create/my-project',
     status: 'completed',
@@ -87,7 +87,7 @@ const projects = [
     category: '04 — Web Development',
     description: 'A clean and responsive website built using HTML and CSS, featuring a simple layout, user-friendly navigation, and a mobile-friendly design.',
     tags: ['	HTML5, CSS3, Responsive Design'],
-    image: 'public/images/simple.png',
+    image: '/images/simple.png',
     link: 'https://mentor-zeta-khaki.vercel.app/',
     github: 'https://github.com/abdulahadtariq73-create/project-master',
     status: 'Completed',
@@ -118,8 +118,8 @@ const contactCards = [
 
 function App() {
   const scrollToTop = () => window.scrollTo({ top: 0, behavior: 'smooth' });
-  const resumePdf = '/Abdul-Ahad-Resume.docx';
-  const resumeDocx = '/Abdul-Ahad-Resume.docx';
+  const resumePdf = '/resume.pdf.pdf';
+  const resumeDocx = '/resume.doc.docx';
 
   return (
     <div className="min-h-screen bg-[#07131d] text-white selection:bg-[#7dd3fc]/40 selection:text-white">
@@ -196,7 +196,7 @@ function App() {
               <div className="absolute -right-8 bottom-6 h-40 w-40 rounded-full border border-[#7dd3fc]/40" />
               <div className="relative overflow-hidden rounded-[1.4rem] border border-[#7dd3fc]/40 bg-[#0d1014] p-4 shadow-[0_0_40px_rgba(125,211,252,0.14)]">
                 <div className="overflow-hidden rounded-[1.1rem] border border-[#7dd3fc]/30 bg-[#07090d] p-2">
-                  <img src="public\images\ahad (1).jpeg" alt="Abdul ahad" className="h-[520px] w-full rounded-[0.9rem] object-cover object-center" />
+                  <img src="/images/ahad (1).jpeg" alt="Abdul ahad" className="h-[520px] w-full rounded-[0.9rem] object-cover object-center" />
                 </div>
 
                 <div className="mt-4 flex items-center justify-between border-t border-[#7dd3fc]/20 pt-4 text-[#7dd3fc]">
@@ -339,7 +339,7 @@ function App() {
   <div className="flex flex-col gap-3 sm:flex-row">
   {/* View Resume */}
   <a
-    href="/public/resume.pdf.pdf"
+    href={resumePdf}
     target="_blank"
     rel="noopener noreferrer"
     className="inline-flex items-center justify-center gap-2 rounded-md border border-[#7dd3fc] bg-[#7dd3fc] px-5 py-3 text-sm font-semibold text-[#0b0f12] transition hover:brightness-110"
@@ -350,7 +350,7 @@ function App() {
 
   {/* Download CV */}
   <a
-    href="/resume.docx"
+    href={resumeDocx}
     download="Abdul-Ahad-Resume.docx"
     className="inline-flex items-center justify-center gap-2 rounded-md border border-white/15 bg-[#11161d] px-5 py-3 text-sm font-semibold text-white transition hover:border-[#7dd3fc] hover:text-[#7dd3fc]"
   >
