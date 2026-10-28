@@ -1,0 +1,70 @@
+.navhead{
+    box-shadow:  0px 0rem 1rem 0px rgb(153 151 151 / 22%)
+}
+.navf{
+    font-size: 50px;
+}
+.free{
+    color: #0BCEAF;
+}
+.folio{
+ color:  #343A40;
+}
+.home{
+   color: #0BCEAF;
+   font-weight: bold;
+   
+}
+.homee{
+    color: #343A40;
+    font-weight: bold;
+}
+.homee:hover{
+    color: #0BCEAF;
+}
+.navbtn{
+    border: 2px solid #0BCEAF;
+    color: #0BCEAF;
+}
+.navbtn:hover{
+    background-color: #0BCEAF;
+    color: white;
+}
+.green{
+    background-color: #0BCEAF;
+    min-height: 100vh;
+
+}
+
+/* .text{
+    padding-top: 100px;
+    
+} */
+
+.h1{
+    font-size: 80px;
+    
+}
+.download{
+    color: white; 
+    border: 1px solid white;
+}
+.download:hover{
+      background-color: white;
+      color: #343A40;
+}
+.hire{
+    border: 1px solid #0BCEAF;
+    color: #0BCEAF ;
+}
+.hire:hover{
+    
+  background-color: #0BCEAF ;
+  color: white;
+  
+}
+.btn{
+    margin-right: 20px;
+}
+.bo{
+
